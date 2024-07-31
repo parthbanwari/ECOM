@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipsy Store</title>
+    <link rel="stylesheet" href="Ecom.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+ rel="stylesheet">
+ <script src="https://kit.fontawesome.com/2901c82250.js" crossorigin="anonymous"></script>
+ <script src="Ecom.js"></script>
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="img/2-removebg-preview.png" width="125px" height="125px">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="#Product">Product</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                    <i class="fa-solid fa-cart-shopping"></i>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col2">
+                <h1>Get that Chilled beer <br> Delivered home !</h1>
+                <a href="#Product" class="btn">Explore Now &#8594;</a>
+            </div>
+            <div class="col2">
+                <img src="img/1-removebg-preview.png">
+            </div>
+        </div>
+    </div>
+    </div>
+<!-------------------------Products------------------------------>
+<div id="Product">
+    <div class="small-container">
+    <h2 class="title">Cold Storage</h2>
+    <div class="row">
+        <div class="col5">
+            <img src="img/3-removebg-preview-removebg-preview.png">
+            <h4>Corona Extra</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>            
+            </div>
+            <p>₹190</p>
+            <div class="cart">
+            <div class="container">
+                <button id="addToCartButton" onclick="incrementValue()"  value="Increment Value">Add to Cart</button>
+                <div class="cart-info">
+                    <span>Items in Cart: </span><span id="number" value="0">0</span>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="col5">
+            <img src="img/7-removebg-preview.jpg">
+            <h4>BroCode</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>            
+            </div>
+            <p>₹180</p>
+            <div class="cart">
+            <div class="container">
+                <button id="addToCartButton">Add to Cart</button>
+                <div class="cart-info">
+                    <span>Items in Cart: </span><span id="cartCounter">0</span>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="col5">
+            <img src="img/6-removebg-preview.jpg">
+            <h4>Budweiser Magnum</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>            
+            </div>
+            <p>₹220</p>
+            <div class="cart">
+            <div class="container">
+                <button id="addToCartButton">Add to Cart</button>
+                <div class="cart-info">
+                    <span>Items in Cart: </span><span id="cartCounter">0</span>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="col5">
+            <img src="img/44.png">
+            <h4>GodFather</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>            
+            </div>
+            <p>₹200</p>
+            <div class="cart">
+            <div class="container">
+                <button id="addToCartButton">Add to Cart</button>
+                <div class="cart-info">
+                    <span>Items in Cart: </span><span id="cartCounter">0</span>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="col5">
+            <img src="img/5-removebg-preview.jpg">
+            <h4>Heineken</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>           
+            </div>
+            <p>₹250</p>
+            <div class="cart">
+            <div class="container">
+                <button id="addToCartButton" onclick="one(); ">Add to Cart</button>
+                <div class="cart-info">
+                    <span>Items in Cart: </span><span id="cartCounter">0</span>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+</body>
+</html>
